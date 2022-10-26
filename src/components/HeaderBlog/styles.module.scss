@@ -1,5 +1,5 @@
 .headerContainer {
-  background-color: var(--white);
+  background-color: var(--black);
   height: 5rem;
 }
 
@@ -46,7 +46,7 @@
 }
 
 .menuNav ul li a {
-  color: black;
+  color: white;
   text-decoration: none;
   display: inline-block;
   padding: 10px;
@@ -59,7 +59,7 @@
 
 /*sub menu*/
 .menuNav ul ul {
-  background-color: black;
+  background-color: var(--black);
   display: none;
   left: 0;
   position: absolute;
@@ -90,7 +90,7 @@
     position: absolute;
     left: 0;
     margin: 30px 320px;
-    background-color: black;
+    background-color: var(--black);
     width: 230px;
     padding: 10px;
 
@@ -105,7 +105,7 @@
     position: absolute;
     left: 0;
     margin: 60px 320px;
-    background-color: black;
+    background-color: var(--black);
     width: 230px;
     padding: 10px;
 
@@ -120,7 +120,7 @@
     position: absolute;
     left: 0;
     margin: 90px 320px;
-    background-color: black;
+    background-color: var(--black);
     width: 230px;
     padding: 10px;
 
@@ -167,7 +167,7 @@
   }
 
   .menuNavMobile ul ul {
-    background-color: black;
+    background-color: var(--black);
     color: white;
   }
   

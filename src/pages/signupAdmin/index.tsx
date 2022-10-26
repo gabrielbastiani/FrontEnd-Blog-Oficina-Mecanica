@@ -2,7 +2,7 @@ import { useState, FormEvent, ChangeEvent, useRef } from 'react'
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../../pages/signupAdmin/styles.module.scss';
-import logoImg from '../../../public/LogoOficinaMecanica.png';
+import logoImg from '../../../public/LogoOficinaSignupAdmin.png';
 import { Input } from '../../components/ui/Input'
 import { Button } from '../../components/ui/Button'
 import { FiUpload } from 'react-icons/fi'

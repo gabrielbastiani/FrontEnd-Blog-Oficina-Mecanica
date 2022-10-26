@@ -67,7 +67,7 @@ export function FooterBlog() {
                </Link>
                <br />
                <br />
-               <p>Desenvolvemos ferramentas e soluções online para o seu negócio.</p>
+               <p>Um bom espaço para o conhecimento automotivo.</p>
                <br />
                <br />
                <br />
@@ -78,7 +78,7 @@ export function FooterBlog() {
                   </div>
                   <div className={styles.containerContacts}>
                      <span><GrMail color='var(--blue)' size={38} /></span>
-                     <Link href="mailto:contato@builderseunegocioonline.com.br"><p> contato@builderseunegocioonline.com.br</p></Link>
+                     <Link href="mailto:contato.graxa@oficinamecanicaonline.com"><p> contato.graxa@oficinamecanicaonline.com</p></Link>
                   </div>
                   <div className={styles.containerContacts}>
                      <span><FaMapMarker color='var(--blue)' size={38} /></span>

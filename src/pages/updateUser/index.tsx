@@ -178,7 +178,7 @@ export default function UpdateUser() {
     return (
         <>
             <Head>
-                <title>Atualizar usúario - {name} - Builder Seu Negócio Online</title>
+                <title>Atualizar usúario - {name} - Oficina Mecânica Online</title>
             </Head>
 
             <HeaderPainel />

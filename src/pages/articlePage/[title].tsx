@@ -113,9 +113,9 @@ export default function ArticlePage({ id, title, description, banner, categoryNa
       }, 1000)
    }
 
-   const disqusShortname = "blog-builder-seu-negocio-online" //found in your Disqus.com dashboard
+   const disqusShortname = "blog-oficina-mecanica-online" //found in your Disqus.com dashboard
    const disqusConfig = {
-      url: `https://blog.builderseunegocioonline.com.br/${title}`, //this.props.pageUrl
+      url: `https://oficinamecanicaonline.com/${title}`, //this.props.pageUrl
       identifier: `${id}`, //this.props.uniqueId
       title: `${title}` //this.props.title
    }

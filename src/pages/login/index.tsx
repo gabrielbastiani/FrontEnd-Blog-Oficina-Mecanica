@@ -3,7 +3,7 @@ import { canSSRGuest } from '../../utils/canSSRGuest'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../login/styles.module.scss'
-import logoLoginImg from '../../../public/LogoOficinaMecanica.png'
+import logoLoginImg from '../../../public/LogoOficina.png'
 import { Input } from '../../components/ui/Input/index'
 import { Button } from '../../components/ui/Button/index'
 import { AuthContext } from '../../contexts/AuthContext'
@@ -69,7 +69,7 @@ export default function Login() {
             <title>Blog Oficina Mecânica Online - Login</title>
          </Head>
          <div className={styles.containerCenter}>
-            <Image src={logoLoginImg} width={440} height={150} alt="Logo Builder Seu Negocio Online" />
+            <Image src={logoLoginImg} width={440} height={150} alt="Logo Oficina Mecanica Online" />
 
             <div className={styles.login}>
                <form onSubmit={handleLogin}>

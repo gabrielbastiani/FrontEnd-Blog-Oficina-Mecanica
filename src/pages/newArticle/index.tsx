@@ -180,7 +180,7 @@ export default function Article({ categoryList }: CategoryProps) {
    return (
       <>
          <Head>
-            <title>Novo artigo - Builder Seu Negócio Online</title>
+            <title>Novo artigo - Oficina Mecânica Online</title>
          </Head>
          <div>
             <HeaderPainel />
@@ -251,6 +251,8 @@ export default function Article({ categoryList }: CategoryProps) {
                         <span>Cadastre aqui a categoria se não encontrar.</span>
                      </div>
                   </Link>
+
+                  <br />
 
                   <h3>De um titulo ao artigo(OBS: Não insira caracteres especiais como: ?, !, %, $, &, *, #, @, (, ))</h3>
 

@@ -20,7 +20,7 @@ export default function PoliticasDePrivacidade() {
 
                     <h1>Pol&iacute;tica Privacidade</h1>
 
-                    <p>A sua privacidade &eacute; importante para n&oacute;s. &Eacute; pol&iacute;tica do Blog Oficina Mecanica Online respeitar a sua privacidade em rela&ccedil;&atilde;o a qualquer informa&ccedil;&atilde;o sua que possamos coletar no site <Link href="https://blog.builderseunegocioonline.com.br">Blog Oficina Mecanica Online</Link>, e outros sites que possu&iacute;mos e operamos.</p>
+                    <p>A sua privacidade &eacute; importante para n&oacute;s. &Eacute; pol&iacute;tica do Blog Oficina Mecanica Online respeitar a sua privacidade em rela&ccedil;&atilde;o a qualquer informa&ccedil;&atilde;o sua que possamos coletar no site <Link href="https://oficinamecanicaonline.com">Blog Oficina Mecanica Online</Link>, e outros sites que possu&iacute;mos e operamos.</p>
 
                     <p>Solicitamos informa&ccedil;&otilde;es pessoais apenas quando realmente precisamos delas para lhe fornecer um servi&ccedil;o. Fazemo-lo por meios justos e legais, com o seu conhecimento e consentimento. Tamb&eacute;m informamos por que estamos coletando e como ser&aacute; usado.</p>
 

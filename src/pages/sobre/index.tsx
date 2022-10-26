@@ -26,7 +26,7 @@ export default function Sobre() {
 
                   <div className={styles.userDescription}>
                      <p>
-                        Me chamo Gabriel Campos de Bastiani, formado em Gestão Comercial pelo centro universitário UNIFTEC da cidade de Caxias do Sul-RS; Junto ao conhecimento obtido na faculdade, e principalmente pelo conhecimento de longa data em Web Design (criação e desenvolvimento de sites e lojas virtuais), aliando tudo isso com técnicas de Marketing Digital; Fundei a Builder Seu Negócio Online, vislumbrando o mercado de pequenas e médias empresas, e os profissionais autônomos e liberais.
+                        Me chamo Gabriel Campos de Bastiani, formado em Gestão Comercial pelo centro universitário UNIFTEC da cidade de Caxias do Sul-RS; Junto ao conhecimento obtido na faculdade, e principalmente pelo conhecimento de longa data em Web Design (criação e desenvolvimento de sites e lojas virtuais), aliando tudo isso com técnicas de Marketing Digital; Fundei a Oficina Mecânica Online, vislumbrando o mercado de pequenas e médias empresas, e os profissionais autônomos e liberais.
                      </p>
 
                      <h2>Minha Missão</h2>

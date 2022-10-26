@@ -58,7 +58,7 @@ export function HeaderBlog() {
             </nav>
 
 
-            <GiHamburgerMenu className={styles.iconMobile} color='var(--black)' size={35} onClick={showOrHide} />
+            <GiHamburgerMenu className={styles.iconMobile} color='var(--white)' size={35} onClick={showOrHide} />
 
 
             {showMenu ? <nav className={styles.menuNavMobile}>
