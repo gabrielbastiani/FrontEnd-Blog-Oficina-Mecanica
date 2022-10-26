@@ -32,7 +32,7 @@ export function HeaderBlog() {
       <header className={styles.headerContainer}>
          <div className={styles.headerContent}>
             <Link href="/">
-               <Image src="/LogoBuilderWhite.png" width={170} height={50} alt="logomarca" />
+               <Image src="/LogoOficinaMecanica.png" width={170} height={50} alt="logomarca" />
             </Link>
             <nav className={styles.menuNav}>
                <ul>
@@ -58,7 +58,7 @@ export function HeaderBlog() {
             </nav>
 
 
-            <GiHamburgerMenu className={styles.iconMobile} color='var(--white)' size={35} onClick={showOrHide} />
+            <GiHamburgerMenu className={styles.iconMobile} color='var(--black)' size={35} onClick={showOrHide} />
 
 
             {showMenu ? <nav className={styles.menuNavMobile}>

@@ -11,7 +11,7 @@ export default function Sobre() {
    return (
       <>
          <Head>
-            <title>Sobre - Blog Builder Seu Negócio Online</title>
+            <title>Sobre - Blog Oficina Mecânica Online</title>
          </Head>
          <main>
 

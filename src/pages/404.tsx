@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import styles from '../../styles/404.module.scss'
-import logoLoginImg from '../../public/LogoBuilderBlack.png'
+import logoLoginImg from '../../public/LogoOficinaMecanica.png'
 import Head from '../../node_modules/next/head'
 import Link from '../../node_modules/next/link'
 
@@ -10,7 +10,7 @@ export default function NotFound(){
    return(
       <>
       <Head>
-         <title>404 não existe - Blog Builder Seu Negócio Online</title>
+         <title>404 não existe - Blog Oficina Mecânica Online</title>
       </Head>
       <div className={styles.containerCenter}>
          <Image src={logoLoginImg} width={440} height={150} alt="Logo Builder Seu Negocio Online" />

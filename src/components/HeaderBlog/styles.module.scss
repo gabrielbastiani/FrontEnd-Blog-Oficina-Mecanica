@@ -1,5 +1,5 @@
 .headerContainer {
-  background-color: var(--black);
+  background-color: var(--white);
   height: 5rem;
 }
 
@@ -46,14 +46,14 @@
 }
 
 .menuNav ul li a {
-  color: white;
+  color: black;
   text-decoration: none;
   display: inline-block;
   padding: 10px;
 }
 
 .menuNav ul li a:hover {
-  color: var(--orange);
+  color: var(--blue);
   cursor: pointer;
 }
 
@@ -145,7 +145,7 @@
   .titleCategorys{
     text-align: center;
     padding: 20px;
-    background-color: var(--orange);
+    background-color: var(--blue);
     font-weight: 900;
   }
 

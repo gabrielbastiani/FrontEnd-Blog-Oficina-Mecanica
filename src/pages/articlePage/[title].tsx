@@ -125,7 +125,7 @@ export default function ArticlePage({ id, title, description, banner, categoryNa
    return (
       <>
          <Head>
-            <title>{title} - Blog Builder Seu Negócio Online</title>
+            <title>{title} - Blog Oficina Mecânica Online</title>
          </Head>
 
          <main className={styles.sectionCategory}>
@@ -149,13 +149,13 @@ export default function ArticlePage({ id, title, description, banner, categoryNa
                         <h1>{title}</h1>
                      </div>
                      <div className={styles.informationsArticle}>
-                        <span><BsCalendarCheck color='var(--orange)' size={20} /> {moment(created_at).format('DD/MM/YYYY')}</span>
-                        <span><BiEdit color='var(--orange)' size={25} />
+                        <span><BsCalendarCheck color='var(--blue)' size={20} /> {moment(created_at).format('DD/MM/YYYY')}</span>
+                        <span><BiEdit color='var(--blue)' size={25} />
                            <Link href={`/authorArticles?name=${name}`}>
                               {name}
                            </Link>
                         </span>
-                        <span><AiOutlineFolderOpen color='var(--orange)' size={25} />
+                        <span><AiOutlineFolderOpen color='var(--blue)' size={25} />
                            <Link href={`/categoryPage?categoryName=${categoryName}`}>
                               {categoryName}
                            </Link>
@@ -170,7 +170,7 @@ export default function ArticlePage({ id, title, description, banner, categoryNa
 
                      <div className={styles.tags}>
 
-                        <span><AiOutlineTags color='var(--orange)' size={25} />
+                        <span><AiOutlineTags color='var(--blue)' size={25} />
                            <Link href={`/tagArticlesPageOne?tagName1=${tagName1}`}>
                               {tagName1}
                            </Link>
@@ -217,7 +217,7 @@ export default function ArticlePage({ id, title, description, banner, categoryNa
 
                            {currentPage > 1 && (
                               <div className={styles.previus}>
-                                 <BsFillArrowLeftSquareFill color='var(--orange)' size={40} onClick={() => setCurrentPage(currentPage - 1)} />
+                                 <BsFillArrowLeftSquareFill color='var(--blue)' size={40} onClick={() => setCurrentPage(currentPage - 1)} />
                               </div>
                            )}
 
@@ -238,7 +238,7 @@ export default function ArticlePage({ id, title, description, banner, categoryNa
 
                            {currentPage < articles.length && (
                               <div className={styles.next}>
-                                 <BsFillArrowRightSquareFill color='var(--orange)' size={40} onClick={() => setCurrentPage(currentPage + 1)} />
+                                 <BsFillArrowRightSquareFill color='var(--blue)' size={40} onClick={() => setCurrentPage(currentPage + 1)} />
                               </div>
                            )}
 

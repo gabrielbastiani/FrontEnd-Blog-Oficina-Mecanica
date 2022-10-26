@@ -358,7 +358,7 @@ export default function Dashboard() {
    return (
       <>
          <Head>
-            <title>Painel - Blog Builder Seu Negócio Online</title>
+            <title>Painel - Blog Oficina Mecânica Online</title>
          </Head>
 
          <main className={styles.dashboard}>
