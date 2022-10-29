@@ -63,7 +63,6 @@ export function HeaderBlog() {
 
             {showMenu ? <nav className={styles.menuNavMobile}>
                <a className={styles.optionMenu}><Link href="/">Inicio</Link></a>
-               <a className={styles.optionMenu1}><Link href="https://builderseunegocioonline.com.br" target="_blank">Nossos Serviços</Link></a>
                <a className={styles.optionMenu2}><Link href="/sobre">Sobre</Link></a>
                <ul>
                   <li><a>Categorias</a>
